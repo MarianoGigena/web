@@ -1,8 +1,17 @@
 * {
-    background: #dbdbdb;
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 
 header,
@@ -21,11 +30,21 @@ header,
 .menu ul,
 li {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     font-size: 24px;
-    gap: 20px;
+
     justify-content: center;
     background-color: white;
+    align-items: center;
+}
+
+li {
+    margin-left: 20px;
+}
+
+li i {
+    margin-right: 10px;
 }
 
 li:hover {
@@ -37,16 +56,43 @@ li:hover {
 main {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    background-color: #333;
+
+
 }
 
 .fotoTecnico {
     display: flex;
     justify-content: center;
-    width: 50%;
+    max-width: 360px;
+    height: auto;
+    object-fit: cover;
 }
 
 footer {
     display: flex;
     justify-content: center;
     background: linear-gradient(to left, #333, #ccc);
+
+
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    background-color: black;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ccc;
 }
