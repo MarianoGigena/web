@@ -1,0 +1,45 @@
+* {
+    background: #dbdbdb;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header,
+.logo {
+    background: linear-gradient(to left, #333, #ccc);
+}
+
+.logo img {
+    margin: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    /* Ajusta los valores según tus necesidades */
+
+
+}
+
+.menu ul,
+li {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: center;
+    background-color: white;
+}
+
+li:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.fotoTecnico {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
