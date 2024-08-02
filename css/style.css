@@ -17,9 +17,12 @@ body {
 header,
 .logo {
     background: linear-gradient(to left, #333, #ccc);
+    background: linear-gradient(to right, #465ca2, #273b71);
 }
 
 .logo img {
+    width: 300px;
+    border-radius: 15px;
     margin: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     /* Ajusta los valores según tus necesidades */
@@ -29,7 +32,7 @@ header,
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .menu ul,
@@ -40,7 +43,7 @@ a {
     font-size: 24px;
 
     justify-content: center;
-    background-color: white;
+    background-color: rgb(54, 53, 117);
     align-items: center;
 }
 
@@ -66,7 +69,7 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    background: linear-gradient(to left, #333, #ccc);
+    background: linear-gradient(to right, #465ca2, #273b71);
 
 
 }
@@ -82,7 +85,7 @@ main {
 footer {
     display: flex;
     justify-content: center;
-    background: linear-gradient(to left, #333, #ccc);
+    background: linear-gradient(to right, #465ca2, #273b71);
 
 
     color: white;
@@ -91,7 +94,7 @@ footer {
 }
 
 .container {
-    background-color: black;
+    background-color: rgb(54, 53, 117);
 }
 
 .social-icons a {
