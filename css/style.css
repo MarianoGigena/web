@@ -61,7 +61,7 @@ li i {
 main {
     align-items: center;
     display: flex;
-    flex-direction: column;
+
     padding: auto;
     justify-content: center;
     flex-wrap: wrap;
@@ -103,4 +103,10 @@ footer {
 
 .social-icons a:hover {
     color: #ccc;
+}
+
+@media (max-width: 390px) {
+    .card {
+        width: 18rem;
+    }
 }
